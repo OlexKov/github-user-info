@@ -1,0 +1,94 @@
+.user-card{
+    border-radius: 30px;
+    background-color: lightgray;
+    width: 300px;
+    overflow: hidden;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.bg-img{
+    width: 300px;
+    filter: blur(2px);
+}
+
+.img-container{
+    top:0px;
+}
+
+.img-container,
+.avatar{
+    position: absolute;
+}
+
+
+
+.avatar{
+    top:75px;
+    left: calc(50% - 50px);
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    z-index: 101;
+    border-width: 4px;
+    border-style: solid;
+    border-color:darkgrey ;
+}
+
+.info{
+    gap:15px;
+    height: 75%;
+    margin-top: 120px;
+    padding-top: 70px;
+    z-index: 100;
+    background-color: darkgrey;
+}
+
+.stat{
+    border-radius: 15px;
+    background-color: lightgray;
+    margin: 10px;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.stat-info,
+.stat,
+.info,
+.user-card{
+    display: flex;
+}
+
+
+.stat-info,
+.info,
+.user-card{
+    flex-direction: column;
+}
+
+.user-name,
+.info-data{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-title,
+.login{
+    color: gray;
+}
+
+.info-title{
+    font-size: 14px;
+}
+
+.location{
+    font-size: 19px;
+    font-weight: bold;
+    color:green
+}
+
+.login{
+    font-size: 17px;
+}
